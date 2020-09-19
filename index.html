@@ -2,20 +2,33 @@
 <html lang="en-us">
 <head>
   <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Megan Shaw">
+  <meta name="description" content="CIT 230 Assignment Portal for Megan Shaw. Web Frontend Development at BYU-I">
   <title>Megan Shaw</title>
+  <link rel="stylesheet" href="meganPortal.css" />
 </head>
 <body>
+  <div class = "content">
  <header>
    <h1>Megan Shaw</h1>
   </header>
- <main><h2>CIT 230 Assignment Portal</h2>
+ 
+ <main>
+  <div class = "image"><img src="meganPicture.jpeg" alt="Profile Picture of Megan"></div> 
+  <h2>CIT 230 Assignment Portal</h2>
  <ul>
    <li>Lesson 02: <a href="#">Assignment Link</a></li>
    <li>Lesson 03: <a href="#">Assignment Link</a></li>
-   <li display: inline;>Lesson 04: <a href="#">Link </a>&#124;</li><a href="#"> Link</a>
+   <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
  </ul>
+ </main>
  <footer>
-  &copy; 2020 &#124; Megan Shaw &#124; Utah &#124; <a href="#"></a>BYUI Online Learning</a>
+  &copy; 
+  <span id = "currentYear"><script>document.write( new Date().getFullYear() );</script></script></span>
+   | Megan Shaw | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a><br>
+  Last Updated: <span id="update"><script>document.write(document.lastModified);</script></span>
  </footer>
+</div>
 </body>
 </html>

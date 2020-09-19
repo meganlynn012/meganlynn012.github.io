@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Yrsa&display=swap');
+
+.content{
+max-width: 600px;
+margin: 0 auto;
+}
+body{
+    background-color: #70E2FB;
+}
+header{
+    background-color: #3A1043;
+    color: #D6E2E5;
+    font-family: 'Caveat', cursive;
+    padding-left: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+main{
+    background-color: #D6E2E5;
+    color: black;
+    font-family: 'Yrsa', serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: -21px;
+    margin-bottom: 1px;
+    
+}
+footer{
+    background-color: #3A1043;
+    color: #D6E2E5;
+    font-family: 'Caveat', cursive;
+    padding-left: 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+main a{
+    color: black;
+}
+footer a{
+    color: #D6E2E5;
+}
+img{
+    width: 125px;
+    height: 170px;
+    border-radius: 5px;
+    float: right;
+}
+h2{
+    border-bottom: 2px dotted black;
+}
