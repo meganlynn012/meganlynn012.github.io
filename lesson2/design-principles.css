@@ -40,7 +40,7 @@ main{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
     padding-top: 10px;
 }
 h2{
