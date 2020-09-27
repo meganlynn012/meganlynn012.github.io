@@ -6,6 +6,7 @@ margin: 0 auto;
 }
 body{
     background-color: #70E2FB;
+
 }
 header{
     background-color: #3A1043;
@@ -39,11 +40,15 @@ footer a{
     color: #D6E2E5;
 }
 img{
-    width: 125px;
-    height: 170px;
+    width: 150px;
     border-radius: 5px;
-    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+h1{
+    font-size: 1.5em;
 }
 h2{
     border-bottom: 2px dotted black;
+    font-size: 1em;
 }
