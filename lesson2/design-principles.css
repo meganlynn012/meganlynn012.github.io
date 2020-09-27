@@ -31,8 +31,9 @@ main{
     padding-top: 10px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
+    justify-content: space-between;
 }
 .shelter, .crossing, .pampers{
     border: 10px solid #D6E2E5;
