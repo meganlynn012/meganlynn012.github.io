@@ -1,0 +1,90 @@
+/*Home*/
+
+/* colors
+yellow #DAA12F
+blue #3DACE0
+dark blue #145A7B
+white #FFFFFF */
+
+/* fonts
+headers font-family: "Bangers" , "Impact" , sans-serif;
+paragraphs font-family: "Cormorant Garamon" , "Palatino Linotype", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cormorant+Garamond&display=swap');
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+    }
+    body{
+        background-color: #FFFFFF;
+        font-size: 1.1em;
+    }
+    .header-logo{
+        width: 120px;
+        border-radius: 100px;
+        border: solid black;
+        float: left;
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+    nav{
+        background-color: #3DACE0;
+        padding: 8px;
+        max-width: 100%;
+        font-size: 1.1em;
+        height: 125px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        color: #145A7B;
+          }
+          ul{
+            list-style: none;
+        }
+        ul a{
+            text-decoration: none;
+            color: white;
+        }
+    footer{
+        background-color: #3DACE0;
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+    footer a:hover {
+        color: white;
+    }
+    h1, h2, h3{
+        font-family: "Bangers" , "Impact" , sans-serif; 
+    }
+    .title{
+        background-color: #DAA12F;
+        padding: 10px;
+        padding-left: 15px;
+        border: 5px solid black;
+        border-radius: 5px;    
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+    main h2{
+        background-color: #DAA12F;
+        max-width: 33%;
+        padding: 10px;
+        padding-left: 15px;
+        outline: 8px dotted black;
+        border-radius: 5px;        
+    }
+    p{
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+    }
+    .weather-logo{
+        width: 200px;
+        border-radius: 100px;
+        border: solid black;
+        margin-bottom: 25px;
+    }
