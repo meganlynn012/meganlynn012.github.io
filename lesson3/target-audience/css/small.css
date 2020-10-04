@@ -63,9 +63,12 @@
     p{
         font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
     }
-    .persona1, .persona2{
+    .personas{
         display: grid;
-        grid-template-columns: auto, auto;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .persona1, .persona2{
         border: solid #DAA12F;
         margin-top: 10px;
         margin-bottom: 10px;
