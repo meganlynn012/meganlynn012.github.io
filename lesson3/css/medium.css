@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5em) {
+
+body{
+    text-align: left;
+}
+    .nav{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+.colors{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h2, h3, h4, h5, h6{
+    text-align: left; 
+}
+.persona-list{
+    max-width: 25%;
+    text-align: left;
+}
+}

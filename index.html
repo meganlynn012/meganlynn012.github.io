@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
+
 </head>
 <body>
   <div class = "content">
@@ -26,12 +27,11 @@
    <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
  </ul>
  </main>
- <footer>
-  &copy; 
-  <span id="currentYear"><script>document.write(new Date().getFullYear());</script></span>
-   | Megan Shaw | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a><br>
-  Last Updated: <span id="update"><script>document.write(document.lastModified);</script></span>
+ <footer> 
+  <div id="currentYear"></div>Megan Shaw | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+<div id="lastModified"></div>   
  </footer>
+ <script src="javascript/lastModified.js"></script>
 </div>
 </body>
 </html>
