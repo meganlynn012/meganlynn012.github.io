@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cormorant+Garamond&display=swap');
+.content{
+    margin: 0 auto;
+    max-width: 520px;
+    }
+    body{
+        background-color: #FFFFFF;
+        font-size: 1.1em;
+        text-align: center;
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+    }
+    header{
+        max-width: 100%;
+    }
+    .banner{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        background-color: #DAA12F;
+        border: 5px solid black;
+        padding: 5px;  
+    }
+    header img{
+        width: 100px;
+        height: auto;
+        border-radius: 100px;
+        margin-right: 20px;
+        border: black 1px solid;
+    }
+    header h1{
+        margin: 0;
+        padding-right: 5px;
+        font-size: 2.1em;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation{
+	    display: flex;
+	    flex-flow: column;
+        background-color: #3DACE0;
+        max-width: 100%;
+        font-size: 1.1em;
+        padding: 5px;
+    }
+    .navigation a{
+        text-decoration: none;
+        color: white;
+    }
+    .navigation a:hover {
+        color: #145A7B;
+    }
+    .navigation li{
+        display: none;
+        padding: 6px;
+    }
+    .navigation li:first-child{
+        display: block;
+    }
+    .responsive li{
+        display: block;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    main h2{
+        margin: 15px;
+        font-size: 1.5em;
+    }
+    main section{
+        border: 1px solid #DAA12F;
+        margin: 10px;
+        padding: 10px;
+        text-align: left;
+        color: black;
+    }
+    footer{
+        background-color: #3DACE0;
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    footer a{
+        text-decoration: none;
+        color: black;
+    }
+    footer p{
+        margin: 0;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: "Bangers" , "Impact" , sans-serif; 
+    }
+    h2, h3, h4, h5, h6{
+
+        background-color: #DAA12F;
+        max-width: 100%;
+        padding: 10px;
+        outline: 8px dotted black;
+        border-radius: 5px;
+        text-align:center;  
+    }

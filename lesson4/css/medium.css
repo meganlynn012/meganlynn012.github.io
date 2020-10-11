@@ -1,0 +1,37 @@
+@media only screen and (min-width: 520px) {
+
+    main{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    header img{
+        width: 125px;
+    }
+    header h1{
+        font-size: 2.5em;
+    }
+    main section{
+        color: #145A7B;
+        border: solid 3px;
+    }
+    main h2{
+        font-size: 1.75em;
+    }
+    footer{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
