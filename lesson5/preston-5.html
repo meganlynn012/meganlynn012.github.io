@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Megan Shaw">
+        <meta name="description" content="WDD 230 Lesson 4 Totally Reliable Weather, Preston, ID town page">
+        <title>Totally Reliable Weather Preston, ID</title>
+        <link rel="shortcut icon" href= "images/weather-favicon.ico">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script src="js/toggleMenu.js"></script>
+        <script src="https://kit.fontawesome.com/87be92cbc2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</div>
+        <script src="js/showFriday.js"></script>
+    <header>
+        <img src="images/weatherlogo.jpg" alt="Totally Reliable Weather Logo"/>
+        <div class="title"><h1>Totally Reliable Weather</h1>
+        <div>The totally predictable weather site.</div></div>
+    </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li class ="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <h2>Preston, Idaho</h2>
+        <section class="weather-info">
+            <img src="images/lightning.jpg" alt="hero"/>
+            <div class="weather-summary"><p id="summary"><em>Weather Summary</em></p>
+            <p>Currently: <span id="currentWeather">Sunny</span></p>
+            <p>High: <span id="high">76 &deg; F</span></p>
+            <p>Wind Chill: <span id="windChill">&deg; F</span></p>
+            <p>Humidity: <span id="humidity">12%</span></p>
+            <p>Wind Speed: <span id="windSpeed">5 mph</span></p></div>
+        </section>
+        <section class="five-day">
+            <h2>5-Day Forecast</h2>
+            <div class="five-images">
+                <img src="images/sunny.jpg" alt="Day 1"/>
+                <img src="images/sunny.jpg" alt="Day 2"/>
+                <img src="images/sunny.jpg" alt="Day 3"/>
+                <img src="images/sunny.jpg" alt="Day 4"/>
+                <img src="images/sunny.jpg" alt="Day 5"/>
+            </div>
+        </section>
+        <section class="article">
+            <h2>Article Title</h2>
+            <img src="images/article.jpg" alt="article image"/>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Error eveniet dolore inventore unde iusto?
+            Accusantium provident numquam repellat sequi quas minus
+            asperiores officia soluta expedita perferendis at, maiores
+            obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Error eveniet dolore inventore unde iusto?
+            Accusantium provident numquam repellat sequi quas minus
+            asperiores officia soluta expedita perferendis at, maiores
+            obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Error eveniet dolore inventore unde iusto.
+            </p>            
+        </section>
+        <h2>Contact Information</h2>
+        <section class="contact-info">
+            
+            <img class = "site-map" src="images/map.jpg" alt="site map"/>
+        <div id="contacts">
+<ul>
+    <li><i class="fas fa-map-pin"></i> 30 N 1st E<br> Preston, ID 83263</li><br>
+    <li>&#9993; admin@trw.com</li>
+    <li>&#9742; 999.999.9999</li>
+</ul>
+<div class = "social-media">
+        <img src="images/facebook.jpg" alt="facebook"/>
+        <img src="images/instagram.jpg" alt="instagram"/>
+        <img src="images/twitter.jpg" alt="twitter"/></div>
+        </div>
+        </section>
+
+    </main>
+    <footer> 
+       <p>&copy; Totally Reliable Weather | Megan Shaw</p>
+      <span id="currentDate"></span> 
+
+       </footer>
+       <script src="js/currentDate.js"></script>  
+       </body>
+</html>
