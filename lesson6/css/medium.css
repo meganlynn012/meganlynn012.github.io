@@ -1,0 +1,92 @@
+@media only screen and (min-width: 520px) {
+
+    main{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    header img{
+        width: 125px;
+    }
+    header h1{
+        font-size: 2.5em;
+    }
+    main section{
+        color: #145A7B;
+        border: solid 3px;
+    }
+    main h2{
+        font-size: 1.75em;
+    }
+    .article img{
+        float: right;
+        margin-right: 50px;
+        margin-left: 10px;
+        width: 200px;
+    }
+    .weather-info{
+        position: relative;
+    }
+    .weather-summary{
+        position: absolute;
+        top: 25px;
+        left: 40px;
+        border: 3px dotted #DAA12F;
+        color: white;
+        padding: 5px;
+        background-color: #145A7B;
+        opacity: .8;
+    }
+    .weather-summary p{
+        margin: 0px;
+    }
+    #summary{
+        font-size: larger;
+        margin-bottom: 3px;
+    }
+    .five-day{
+        display: block;
+    }
+    .five-images{
+        display: flex;
+        justify-content: space-between;
+    }
+    .five-day img{
+        width: 15%;
+    }
+    .contact-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #contacts{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 10px;
+    }
+    .site-map{
+        display: block;
+        width: 300px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    footer{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
