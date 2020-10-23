@@ -5,7 +5,7 @@ let dayName = [
     "Wedesday",
     "Thursday",
     "Friday",
-    "Saturday"    
+    "Saturday"
 ];
 
 let month = [
