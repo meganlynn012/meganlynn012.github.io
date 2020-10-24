@@ -6,4 +6,9 @@ let digits = 0;
 let rounder = Math.pow(10, digits);
 chill = Math.round(chill * rounder) / rounder;
 
-document.getElementById("windChill").innerHTML = chill;
+if (t <= 50 && s > 3){
+    document.getElementById("windChill").innerHTML = chill;
+}
+else{
+    document.getElementById("windChill").innerHTML = "N/A";
+}
