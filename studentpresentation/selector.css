@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Turret+Road&display=swap');
+
+body{
+    padding: 10px;
+    font-family: "Kalam";
+    background-color: #C3D0D5;
+    color: #465972;
+    text-align: center;
+}
+main{
+    font-family: "Turret Road";
+}
+.class-name{
+    background-color: #CBB3BF;
+}
+#id-name{
+    text-align: right;
+}

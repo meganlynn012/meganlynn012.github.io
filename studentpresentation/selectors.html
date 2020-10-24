@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic CSS Specificity</title>
+    <meta name="author" content="Megan Shaw">
+    <meta name="description" content="Megan Shaw Student Presentation Basic CSS Specificity Example">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Turret+Road&display=swap');
+
+
+        body {
+            padding: 10px;
+            font-family: "Turret Road";
+            background-color: #C3D0D5;
+            color: #465972;
+            text-align: center;
+        }
+
+        main {}
+
+        .class-name {}
+
+        #id-name {}
+    </style>
+</head>
+
+<body>
+    <h1>h1 tag in body</h1>
+
+    <main>
+        <h1>h1 tag in main</h1>
+
+        <section class="class-name">
+            <h1>h1 tag in .class-name</h1>
+
+            <div id="id-name">
+                <h1>h1 tag in #id-name</h1>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
