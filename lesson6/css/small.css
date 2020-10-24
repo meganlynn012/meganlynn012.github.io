@@ -19,7 +19,10 @@
         padding: 10px;
         outline: 8px dotted black;
         border-radius: 5px;
-        text-align:center;  
+        text-align:center; 
+    }
+    p{
+        padding: 5px;
     }
     #pancakes{
         display: none;
@@ -40,8 +43,6 @@
         padding: 5px;  
     }
     header img{
-        width: 100px;
-        height: auto;
         border-radius: 100px;
         margin-right: 20px;
         border: black 1px solid;
@@ -65,10 +66,10 @@
     }
     .navigation a{
         text-decoration: none;
-        color: white;
+        color: black;
     }
     .navigation a:hover {
-        color: #145A7B;
+        color: white;
     }
     .active {
         border: solid #DAA12F;
@@ -102,13 +103,11 @@
     .weather-info img{
         width:100%;
     }
-
     .five-day{
         display: none;
     }
     .article img{
         display: block;
-        width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -127,8 +126,8 @@
         margin: 10px 0px;
     }
     .social-media img{
-        width:25px;
         padding: 5px;
+        border-radius: 10px;
     }
     .site-map{
         display: none;
