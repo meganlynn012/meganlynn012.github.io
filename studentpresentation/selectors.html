@@ -8,7 +8,6 @@
     <meta name="author" content="Megan Shaw">
     <meta name="description" content="Megan Shaw Student Presentation Basic CSS Specificity Example">
 
-    <link rel="stylesheet" href="css/normalize.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Turret+Road&display=swap');
 
@@ -20,12 +19,32 @@
             color: #465972;
             text-align: center;
         }
+  
+        main {
 
-        main {}
+        }
 
-        .class-name {}
+        .class-name {
 
-        #id-name {}
+        }
+
+        #id-name{
+
+        }
+
+        p{
+
+        }
+
+        ul, a {
+            list-style: none;
+            color: #465972;
+        }
+        a {
+            display: block;
+        }
+
+
     </style>
 </head>
 
@@ -35,14 +54,51 @@
     <main>
         <h1>h1 tag in main</h1>
 
-        <section class="class-name">
+        <section class="class-name" >
             <h1>h1 tag in .class-name</h1>
 
             <div id="id-name">
                 <h1>h1 tag in #id-name</h1>
-
+                <p>CSS specificity determines the order of importance of a CSS declaration.
+                    The more specific the declaration, the higher value the declaration is assigned.
+                    Declarations with the highest values are the rules that are applied to the HTML.
+                    This paragraph is inside a div.
+                </p> 
             </div>
         </section>
+        <p>I am a paragraph that is outside of a div. When I'm selected, I will not be as specific
+            as my paragraph friend above. Any declarations made to p will affect me, but any declarations
+            made to a p and a div will not apply to me. When equal value declarations are made,
+            the last one descending will take precedence. Watch, I'll show you.
+        </p>
+
+     
+
+        <section>
+            <h1>Order of Specificity Basics</h1>
+            <ul>
+                <li>Elements and Psuedo-Elements (p::first-line{}{}) </li>
+                <li>Class Names and Psuedo-Classes (a:hover{})</li>
+                <li>Id Names</li>
+            </ul>
+
+
+
+            <h2 style=font-size:1.2em;>Other Contributors to Specificity</h2>
+            <ul>
+                <li>Last Declaration</li>
+                <li>Inline Styles</li>
+                <li>!Important</li>
+            </ul>
+        </section>
+
+
+
+        <a href="https://specificity.keegan.st/" target="_blank">Specificity Calculator
+
+
+   <a href="http://students.washington.edu/svenhans/css-redundancy/index.html" target="_blank">Redunancy Checker</a>
+
     </main>
 </body>
 
