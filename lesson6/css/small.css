@@ -23,6 +23,7 @@
     }
     p{
         padding: 5px;
+        margin: 0;
     }
     #pancakes{
         display: none;
@@ -100,6 +101,22 @@
         padding: 10px;
         text-align: left;
         color: black;
+    }
+    img p, picture{
+        text-align: center;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    picture{
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+    img .img-caption{
+        border: 1px solid black;
     }
     .weather-info img{
         width:100%;

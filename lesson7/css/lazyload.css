@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+picture{
+    margin: 0 auto;
+}
+img[data-src] {
+    filter: blur(.5em);
+}
