@@ -9,4 +9,13 @@ header h1{
 main h2{
     font-size: 2em;
 }
+.gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery h2{
+    grid-column: 1/4;
+}
+figure:hover{
+    box-shadow: 0px 5px 10px black;
+}
 }
