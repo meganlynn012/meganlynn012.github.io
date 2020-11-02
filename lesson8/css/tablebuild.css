@@ -1,10 +1,16 @@
+body{
+  margin: 0 auto;
+}
 table {
     font-family: ubuntu, sans-serif;
     box-shadow: 7px 5px 8px #628ca6;
     text-align: center;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
   }
-  th{
+  th, .hightlight{
     background-color: #628ca6;
     color: white;
   }
