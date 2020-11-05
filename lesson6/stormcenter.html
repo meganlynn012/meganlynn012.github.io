@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Totally Reliable Weather Preston, ID</title>
+    <meta name="author" content="Megan Shaw">
+    <meta name="description" content="Totally Reliable Weather, Report a Storm form.">
+
+    <link rel="shortcut icon" href="images/weather-favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+        <header>
+            <img src="images/weatherlogo100.jpg" alt="Totally Reliable Weather Logo" />
+            <div class="title">
+                <h1>Totally Reliable Weather</h1>
+                <div>The totally predictable weather site.</div>
+            </div>
+        </header>
+
+<nav>
+    <ul class="navigation">
+        <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li class="active"><a href="#">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<main>
+<h2>Report a Storm</h2>
+<form>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label class="top">Full Name*<input type="text" name="name" minlength="5" required></label>
+        <label class="top">Email<input type="email" placeholder="someone@gmail.com"></label>
+        <label class="top">Phone Number*<input type="tel" required></label>
+        <label class="top">Zip Code*<input type="number" required></label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Storm Information</legend>
+        <label class="storm">Storm Date<input type="date"></label>
+        <label class="storm">Storm Type<input list="type" name="type">
+            <datalist id="type">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+            </datalist>
+        </label>
+        <label class="storm" for="severity">Storm Severity <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <span id="ratingvalue">5</span></label>
+        <label class="storm">Storm Region
+            <select name="region">
+                <option value="" disabled>Select Region... &#9662;</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+                <option value="Fish Haven">Fish Haven</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>User in-Danger Level</legend>
+        <label class="danger"><input type="radio" name="danger" value="yes"> Yes</label>
+        <label class="danger"><input type="radio" name="danger" value="no"> No</label>
+        <label class="danger"><input type="radio" name="danger" value="maybe"> Maybe</label>
+        <label class="danger"></label>
+    </fieldset>
+
+        <fieldset>
+            <legend>Additional Information or Comments</legend>
+            <label class="txtarea"><textarea name="txtarea" rows="6" cols="50"></textarea></label>
+        </fieldset>
+            <input type="submit" value="Report Storm" class="submitBtn" name="submitBtn">
+</form>
+
+</main>
+
+
+
+<footer>
+    <p>&copy; Totally Reliable Weather | Megan Shaw</p>
+    <span id="currentDate"></span>
+
+</footer>
+<script src="js/toggleMenu.js"></script>
+<script src="js/currentDate.js"></script>
+<script src="js/adjustRating.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ["Bangers", "Cormorant Garamon"]
+        }
+    });
+</script>
+</body>
+</html>

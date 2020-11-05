@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap');
+
 body{
   margin: 0 auto;
 }
@@ -10,7 +12,7 @@ table {
     margin-right: auto;
     margin-top: 5em;
   }
-  th, .hightlight{
+  th, .highlight{
     background-color: #628ca6;
     color: white;
   }
@@ -26,7 +28,7 @@ table {
     font-size: .5em;
   }
   /* zebra stripe table */
-  tbody tr:nth-child(even) {
+  tbody tr:nth-child(odd) {
     background-color: #e7f0ed
   }
   table, th, td{
