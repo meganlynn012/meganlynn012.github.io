@@ -25,6 +25,13 @@
         padding: 5px;
         margin: 0;
     }
+    p a{
+        color: #145A7B;
+    }
+    p a:hover{
+        background-color: #145A7B;
+        color: white;
+    }
 
     /*banner that only shows at top of page on Fridays*/
     #pancakes{
@@ -130,7 +137,6 @@
     }
     .contact-info h2{
         color: black;
-        margin-bottom: 25px;
     }
     .social-media{
         display: flex;
@@ -151,6 +157,7 @@
         padding: 10px;
         text-align: center;
         border-radius: 5px 5px 0px 0px;
+        margin-top: 2rem;
     }
     footer p{
         margin: 0;
@@ -184,10 +191,13 @@
     form fieldset {
         border: 1px solid #DAA12F;
         border-radius: 5px;
-        margin: 2rem 0;
+        margin: 2rem 2px;
     }
     form legend {
         color: #145A7B;
+        padding: 0 5px;
+        font-size: 1.25em;
+        margin-bottom: 1rem;
     }
 
     form label.top,
@@ -203,6 +213,50 @@
         appearance: none;
         display: block;
         background-color: rgba(0,0,0,0.1);
+        width: 100%;
+        height: 44px;
+        border: 1px solid #145A7B;
+    }
+    form input, form select{
+        margin-top: 5px;
+    }
+    form select{
+        appearance: none;
+        padding-left: 5px;
+    }
+
+    #severity {
+        appearance: none;
+        background-image: linear-gradient(#3DACE0, #145A7B);
+        height: 10px;
+        border-radius: 10px;
+        margin: 5px 0;
+        outline: none;
+    }
+
+    #severity::-webkit-slider-thumb {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #145A7B;
+        border: 1px solid black;
+       }
+       
+       #severity::-moz-range-thumb {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #145A7B;
+        border: 1px solid black;
+       }
+
+    textarea{
+        resize: none;
+        width: 100%;
     }
 
     form input.submitBtn {
@@ -211,9 +265,11 @@
         color: white;
         border-radius: 5px;
         padding: .75rem;
-        margin-bottom: 2rem;
-        max-width: 20rem;
         font-size: 1.25em;
+        width: 100%;
+    }
+    form input.submitBtn:hover{
+        box-shadow: 0 5px 10px #145A7B;
     }
 
     /*removes border when required field is completed*/
@@ -222,6 +278,17 @@
     }
     
     form label.top input:required:valid {
-        border: none;
+        border: 1px solid #145A7B;
     }
+
+    /*Confirmation page after form is submitted*/
+
+    #thanks {
+        margin-top: 2rem;
+        text-align: center;
+        border: 2px solid #145A7B;
+        padding: 40px;
+    }
+    
+    
 
