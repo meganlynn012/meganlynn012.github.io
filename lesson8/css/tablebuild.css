@@ -8,8 +8,7 @@ table {
     box-shadow: 7px 5px 8px #628ca6;
     text-align: center;
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 5em;
   }
   th, .highlight{
