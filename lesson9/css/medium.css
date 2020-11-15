@@ -23,15 +23,35 @@
     header h1{
         font-size: 2.5em;
     }
-    main section{
-        color: #145A7B;
-        border: solid 3px;
-    }
     main h2{
         font-size: 1.75em;
     }
+    section{
+        margin: 2rem;
+        border: 1px solid #DAA12F;
+        border-radius: 5px;
+    }
+    section .hero{
+        border: none;
+    }
+
+    /* Town Info Cards */
+    .town-info {
+        display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+      
+      .town-info:nth-child(odd) img {
+          grid-column: 2;
+      }
+      
+      .town-info:nth-child(odd) .data {
+          grid-column: 1;
+          grid-row: 1;
+      }
+
     .article img{
-        float: right;
+        float: left;
         margin-right: 50px;
         margin-left: 10px;
         width: 200px;
@@ -68,15 +88,15 @@
     }
     .five-day{
         display: block;
+        padding: 10px;
     }
     .five-images{
         display: flex;
         justify-content: space-between;
     }
-    .contact-info{
+    .map-coordinates {
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
     }
     #contacts{
@@ -84,12 +104,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
-        padding: 10px;
+        padding: 1rem 0 0 2rem;
     }
     .site-map{
         display: block;
-        padding-right: 20px;
-        padding-bottom: 20px;
     }
     .gallery{
         grid-template-columns: 1fr 1fr;

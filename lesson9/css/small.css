@@ -111,12 +111,16 @@
         margin: 15px;
         font-size: 1.5em;
     }
-    main section{
-        border: 1px solid #DAA12F;
-        margin: 10px;
-        padding: 10px;
+    main {
+        margin: 1rem;
         text-align: left;
         color: black;    
+    }
+    section, .weather-summary {
+        margin-bottom: 2rem;
+    }
+    .hero img{
+        width: 100%;
     }
     .weather-info img{
         width:100%;
@@ -130,14 +134,13 @@
         margin-right: auto;
     }
     /*Contact Information for Town Pages*/
-    .contact-info{
+    .map-coordinates{
         background-color: #145A7B;
         color: white;   
-        text-align: center;  
+        text-align: center; 
+        padding: 20px; 
     }
-    .contact-info h2{
-        color: black;
-    }
+
     .social-media{
         display: flex;
         justify-content: center;
@@ -162,10 +165,24 @@
     footer p{
         margin: 0;
     }
+    /*Home Page Town Data Cards */
+
+    .town-info{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .town-info p:first-of-type{
+        font-style: italic;
+    }
+    .town-info img{
+        width: 100%;
+    }
 
     /*Gallery page css*/
 
     .gallery{
+        border: 1px solid #DAA12F;
+        border-radius: 5px;
         display: grid;
         grid-template-columns: 1fr;
     }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Totally Reliable Weather</title>
+    <meta name="author" content="Megan Shaw">
+    <meta name="description" content="Totally Reliable Weather, Home page">
+
+    <link rel="shortcut icon" href="images/weather-favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/weatherlogo100.jpg" alt="Totally Reliable Weather Logo" />
+        <div class="title">
+            <h1>Totally Reliable Weather</h1>
+            <div>The totally predictable weather site.</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li ><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="hero"><img src="images/sunflowers1200.jpg" sizes="100vw" alt="hero" srcset="images/sunflowers400.jpg 400w,
+        images/sunflowers800.jpg 800w,
+        images/sunflowers1200.jpg 1200w" />
+        </div>
+
+        <div class="town-info">
+
+        </div>
+
+ 
+        <section class="article">
+            <h2>Article Title</h2>
+            <img src="images/snowflake500.jpg" alt="snowflake" sizes="100vw" srcset="images/snowflake300.jpg 400w" />
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto?
+                Accusantium provident numquam repellat sequi quas minus
+                asperiores officia soluta expedita perferendis at, maiores
+                obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto?
+                Accusantium provident numquam repellat sequi quas minus
+                asperiores officia soluta expedita perferendis at, maiores
+                obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto.
+            </p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="map-coordinates">
+                <img class="site-map" src="images/map300.jpg" alt="site map" />
+                <div id="contacts">
+                    <ul>
+                        <li>&#128205; 30 N 1st E<br> Preston, ID 83263</li>
+                        <li>&#9993; admin@trw.com</li>
+                        <li>&#9742; 999.999.9999</li>
+                    </ul>
+                    <div class="social-media">
+                        <img src="images/facebook30.jpg" alt="facebook" />
+                        <img src="images/instagram30.jpg" alt="instagram" />
+                        <img src="images/twitter30.jpg" alt="twitter" /></div>
+                </div>
+                </div>
+            </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Totally Reliable Weather | Megan Shaw</p>
+        <span id="currentDate"></span> <p><a href="home-wireframes.html">Wireframes</a></p>
+
+    </footer>
+
+<!--creates hamburger menu in small view-->
+    <script src="js/toggleMenu.js"></script>
+
+<!--Updates the date in the footer-->
+    <script src="js/currentDate.js"></script>
+
+<!--Makes images load as the user scrolls instead of when page loads-->
+    <script src="js/lazyload.js"></script>
+
+<!--Summons information using JSON for town information-->
+    <script src="js/townData.js"></script>
+
+<!--Summons fonts from Google fonts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Bangers", "Cormorant Garamon"]
+            }
+        });
+    </script>
+</body>
+</html>

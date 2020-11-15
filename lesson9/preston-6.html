@@ -30,8 +30,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -41,12 +41,12 @@
 
     <main>
         <h2>Preston, Idaho</h2>
-        <section class="weather-info">
+        <div class="weather-info">
 
-            <img src="images/wdd230_image_franklinOriginal.jpeg" sizes="100vw" alt="hero" srcset="images/image400.jpg 400w,
+            <div class="hero"><img src="images/wdd230_image_franklinOriginal.jpeg" sizes="100vw" alt="hero" srcset="images/image400.jpg 400w,
                     images/image800.jpg 800w,
                     images/image1200.jpg 1200w" />
-
+            </div>
             <div class="weather-summary">
                 <h2 id="weather-title">Weather Summary</h2>
                 <p>Currently: <span id="currentWeather">Sunny</span></p>
@@ -55,7 +55,7 @@
                 <p>Humidity: <span id="humidity">12</span>%</p>
                 <p>Wind Speed: <span id="speed">12</span> mph</p>
             </div>
-        </section>
+        </div>
         <section class="five-day">
             <h2>5-Day Forecast</h2>
             <div class="five-images">
@@ -86,9 +86,9 @@
                 Error eveniet dolore inventore unde iusto.
             </p>
         </section>
-        <h2>Contact Information</h2>
         <section class="contact-info">
-
+        <h2>Contact Information</h2>
+        <div class="map-coordinates">
             <img class="site-map" src="images/map300.jpg" alt="site map" />
             <div id="contacts">
                 <ul>
@@ -100,6 +100,7 @@
                     <img src="images/facebook30.jpg" alt="facebook" />
                     <img src="images/instagram30.jpg" alt="instagram" />
                     <img src="images/twitter30.jpg" alt="twitter" /></div>
+            </div>
             </div>
         </section>
 
