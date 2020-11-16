@@ -23,6 +23,9 @@ figure:hover{
     margin: 0 5px 0 5px;
     padding: 0;
   }
+  .card h2{
+      width: 80%;
+  }
   .town-info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
