@@ -167,16 +167,20 @@
     }
     /*Home Page Town Data Cards */
 
-    .town-info{
+    .town-info {
         text-align: center;
-        margin-bottom: 3rem;
-    }
-    .town-info p:first-of-type{
-        font-style: italic;
-    }
-    .town-info img{
+      }
+      .town-info img {
         width: 100%;
-    }
+      }
+      .card {
+        border: 1px solid #DAA12F;
+        margin: 5px 0 5px 0;
+      }
+      .town-info p:first-of-type {
+        font-style: italic;
+        font-size: .75em;
+      }
 
     /*Gallery page css*/
 

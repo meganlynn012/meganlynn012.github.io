@@ -10,7 +10,8 @@ fetch(requestURL)
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
  
     three.forEach(town =>{
-    let card = document.createElement('section');
+    
+    let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
@@ -24,14 +25,16 @@ p2.innerHTML = `Year Founded: ${town.yearFounded}`;
 p3.innerHTML = `Population: ${town.currentPopulation}`;
 p4.innerHTML = `Annual Rainfall: ${town.averageRainfall}`;
 if (town.name == "Preston"){
-image.setAttribute('src', 'images/preston-barn300.jpg')}
-else if (town.name == "Soda Springs"){
-    image.setAttribute('src', 'images/sodasprings-barn300.jpg')
-}
-else {
-    image.setAttribute('src', 'images/fishhaven-barn300.jpg')
-};
+  image.setAttribute('src', 'images/preston-barn300.jpg')}
+  else if (town.name == "Soda Springs"){
+      image.setAttribute('src', 'images/sodasprings-barn300.jpg')
+  }
+  else {
+      image.setAttribute('src', 'images/fishhaven-barn300.jpg')
+  };
 image.setAttribute('alt', 'Town image');
+card.setAttribute('class', "card");
+
 
 card.appendChild(h2);
 card.appendChild(p1);
@@ -41,6 +44,6 @@ card.appendChild(p4);
 card.appendChild(image);
 
 
-document.querySelector('div.town-info').appendChild(card);
+document.querySelector('section.town-info').appendChild(card);
   });
 });

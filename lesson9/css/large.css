@@ -18,8 +18,20 @@ main h2{
 figure:hover{
     box-shadow: 0px 5px 10px black;
 }
-.town-info{
+.card{
+    display: block;
+    margin: 0 5px 0 5px;
+    padding: 0;
+  }
+  .town-info{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .town-info h2{
+    margin-bottom: 5px;
+  }
+  .town-info p:first-of-type {
+margin-top: 0;
 }
 }
