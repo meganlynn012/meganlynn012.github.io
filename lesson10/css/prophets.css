@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra&family=Quicksand&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #EEF0F2;
+    color: #EEF0F2;
+}
+header {
+    color: #353B3C;
+    margin: 1rem;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 5px;
+}
+
+h1,h2 {
+    font-family: 'Almendra', serif;
+}
+
+p {
+    padding: 0 1rem 0 1rem;
+}
+
+section {
+    background-color: #846A6A;
+    width: 100%;
+
+}
+
+.cards img {
+    display: block;
+    margin: 0 auto 1rem auto;
+    max-width: 200px;
+}
+
+img {
+    box-shadow: 0 0 20px;
+}
+
+footer{
+    margin-top: 1rem;
+    background-color: #353B3C;
+    padding: 1rem;
+}
+
+@media only screen and (min-width: 520px) {
+
+    div{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+    div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
