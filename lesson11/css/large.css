@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1000px){
+
+header img{
+    width: 150px;
+}
+header h1{
+    font-size: 3em;
+}
+main h2{
+    font-size: 2em;
+}
+.gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery h2{
+    grid-column: 1/4;
+}
+figure:hover{
+    box-shadow: 0px 5px 10px black;
+}
+.card{
+    display: block;
+    margin: 0 5px 0 5px;
+    padding: 0;
+  }
+  .card h2{
+      width: 80%;
+  }
+  .town-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+  .town-info h2{
+    margin-bottom: 5px;
+  }
+  .town-info p:first-of-type {
+margin-top: 0;
+}
+}

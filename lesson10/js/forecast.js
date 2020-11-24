@@ -20,7 +20,7 @@ switch(file) {
         break;
 }*/
 
-const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=4a0eddb5f22fe1857038e663b0dd6611`;
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast? + id + &units=imperial&appid=4a0eddb5f22fe1857038e663b0dd6611";
 
 
 fetch(forecastURL)

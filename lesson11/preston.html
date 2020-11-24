@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Totally Reliable Weather Preston, ID</title>
+    <meta name="author" content="Megan Shaw">
+    <meta name="description" content="Totally Reliable Weather, Preston, ID town page">
+
+    <link rel="shortcut icon" href="images/weather-favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div id="pancakes">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park.</div>
+
+    <header>
+        <img src="images/weatherlogo100.jpg" alt="Totally Reliable Weather Logo" />
+        <div class="title">
+            <h1>Totally Reliable Weather</h1>
+            <div>The totally predictable weather site.</div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="weather-info">
+
+            <div class="hero"><img src="images/wdd230_image_franklinOriginal.jpeg" sizes="100vw" alt="hero" srcset="images/preston-hero400.jpg 400w,
+                    images/preston-hero800.jpg 800w,
+                    images/preston-hero1200.jpg 1200w" />
+            </div>
+            <div class="weather-summary">
+                <h2 id="weather-title">Weather Summary</h2>
+                <p>Today: <span id="weather-description"></span></p>
+                <p>Currently: <span id="current-temp"></span>&deg; F</p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+            </div>
+        </div>
+        <section class="five-day">
+            <h2>5-Day Forecast</h2>
+            <div class="five-images">
+
+                <div class = "five-forecast"><span id="day1"></span><img src="" alt="" id="icon1"/><span id="forecast-temp1">&deg; F</span></div>
+                <div class = "five-forecast"><span id="day2"></span><img src="" alt="" id="icon2"/><span id="forecast-temp2">&deg; F</span></div>
+                <div class = "five-forecast"><span id="day3"></span><img src="" alt="" id="icon3"/><span id="forecast-temp3">&deg; F</span></div>
+                <div class = "five-forecast"><span id="day4"></span><img src="" alt="" id="icon4"/><span id="forecast-temp4">&deg; F</span></div>
+                <div class = "five-forecast"><span id="day5"></span><img src="" alt="" id="icon5"/><span id="forecast-temp5">&deg; F</span></div>
+
+            </div>
+        </section>
+        <section class="article">
+            <h2>Article Title</h2>
+            <img src="images/article400.jpg" alt="article image" sizes="100vw" srcset="images/article300.jpg 400w" />
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto?
+                Accusantium provident numquam repellat sequi quas minus
+                asperiores officia soluta expedita perferendis at, maiores
+                obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto?
+                Accusantium provident numquam repellat sequi quas minus
+                asperiores officia soluta expedita perferendis at, maiores
+                obcaecati sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Error eveniet dolore inventore unde iusto.
+            </p>
+        </section>
+        <section class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="map-coordinates">
+            <img class="site-map" src="images/map300.jpg" alt="site map" />
+            <div id="contacts">
+                <ul>
+                    <li>&#128205; 30 N 1st E<br> Preston, ID 83263</li>
+                    <li>&#9993; admin@trw.com</li>
+                    <li>&#9742; 999.999.9999</li>
+                </ul>
+                <div class="social-media">
+                    <img src="images/facebook30.jpg" alt="facebook" />
+                    <img src="images/instagram30.jpg" alt="instagram" />
+                    <img src="images/twitter30.jpg" alt="twitter" /></div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Totally Reliable Weather | Megan Shaw | Weather Statistics from <a href="https://openweathermap.org/city/5604473">OpenWeatherMap</a></p>
+        <span id="currentDate"></span>
+
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/showFriday.js"></script>
+    <script src="js/currentDate.js"></script>
+    <script src="js/windChill.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/forecast.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Bangers", "Cormorant Garamon"]
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,315 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cormorant+Garamond&display=swap');*/
+.content{
+    margin: 0 auto;
+    max-width: 520px;
+    }
+    body{
+        background-color: #FFFFFF;
+        font-size: 1.1em;
+        text-align: left;
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-family: "Bangers" , "Impact" , sans-serif; 
+        color: black;
+    }
+    h2, h3, h4, h5, h6{
+        background-color: #DAA12F;
+        max-width: 100%;
+        padding: 10px;
+        outline: 8px dotted black;
+        border-radius: 5px;
+        text-align:center; 
+    }
+    p{
+        padding: 5px;
+        margin: 0;
+    }
+    p a{
+        color: #145A7B;
+    }
+    p a:hover{
+        background-color: #145A7B;
+        color: white;
+    }
+
+    /*banner that only shows at top of page on Fridays*/
+    #pancakes{
+        display: none;
+        background-color: #145A7B;
+        color: white;
+        margin: 10px 0px;
+        padding: 10px;
+        border: 1px solid #DAA12F;
+        font-size: larger;
+        text-align: center;
+    }
+    /*header css for all pages*/
+    header{
+        max-width: 100%;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        background-color: #DAA12F;
+        border: 5px solid black;
+        padding: 5px;  
+    }
+    header img{
+        border-radius: 100px;
+        margin-right: 20px;
+        border: black 1px solid;
+    }
+    header h1{
+        margin: 0;
+        padding-right: 5px;
+        font-size: 2.1em;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*navigation css for all pages*/
+    .navigation{
+	    display: flex;
+	    flex-flow: column;
+        background-color: #3DACE0;
+        max-width: 100%;
+        font-size: 1.1em;
+        padding: 5px;
+        text-align: center;
+    }
+    .navigation a{
+        text-decoration: none;
+        color: black;
+    }
+    .navigation a:hover {
+        color: white;
+    }
+    .active {
+        border: solid #DAA12F;
+    }
+    .navigation li{
+        display: none;
+        padding: 6px;
+    }
+    .navigation li:first-child{
+        display: block;
+    }
+    .responsive li{
+        display: block;
+    }
+
+    /*Takes off list defaults*/
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Main css for all pages*/
+    main h2{
+        margin: 15px;
+        font-size: 1.5em;
+    }
+    main {
+        margin: 1rem;
+        text-align: left;
+        color: black;    
+    }
+    section, .weather-summary {
+        margin-bottom: 2rem;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .weather-info img{
+        width:100%;
+    }
+    .five-day{
+        display: none;
+    }
+    .article img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Contact Information for Town Pages*/
+    .map-coordinates{
+        background-color: #145A7B;
+        color: white;   
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    .social-media img{
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .site-map{
+        display: none;
+    }
+    /*footer css for all pages*/
+    footer{
+        background-color: #3DACE0;
+        font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px 5px 0px 0px;
+        margin-top: 2rem;
+    }
+    footer p{
+        margin: 0;
+    }
+    /*Home Page Town Data Cards */
+
+    .town-info {
+        text-align: center;
+      }
+      .town-info img {
+        width: 100%;
+      }
+      .card {
+        border: 1px solid #DAA12F;
+        margin: 5px 0 5px 0;
+      }
+      .town-info p:first-of-type {
+        font-style: italic;
+        font-size: .75em;
+      }
+
+    /*Gallery page css*/
+
+    .gallery{
+        border: 1px solid #DAA12F;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .gallery-picture{
+        width: 100%;
+      }
+      figure{
+        border: 1px solid #145A7B;
+        box-shadow: none;
+      }
+      figcaption{
+        height: auto;
+        text-align: center;
+        font-style: italic;
+        padding: 10px;
+      }
+      img[data-src] {
+        filter: blur(.5em);
+    }
+
+    /*Form Styling*/
+
+    form fieldset {
+        border: 1px solid #DAA12F;
+        border-radius: 5px;
+        margin: 2rem 2px;
+    }
+    form legend {
+        color: #145A7B;
+        padding: 0 5px;
+        font-size: 1.25em;
+        margin-bottom: 1rem;
+    }
+
+    form label.top,
+    form label.storm,
+    form label.danger {
+        display: block;
+        padding: .5rem;
+    }
+
+    form label.top input,
+    form label.storm select,
+    form label.storm input {
+        appearance: none;
+        display: block;
+        background-color: rgba(0,0,0,0.1);
+        width: 100%;
+        height: 44px;
+        border: 1px solid #145A7B;
+    }
+    form input, form select{
+        margin-top: 5px;
+    }
+    form select{
+        appearance: none;
+        padding-left: 5px;
+    }
+    #severity {
+        appearance: none;
+        background-image: linear-gradient(#3DACE0, #145A7B);
+        height: 10px;
+        border-radius: 10px;
+        margin: 5px 0;
+        outline: none;
+    }
+
+    #severity::-webkit-slider-thumb {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #145A7B;
+        border: 1px solid black;
+       }
+       
+       #severity::-moz-range-thumb {
+        appearance: none;
+        height: 20px;
+        width: 20px;
+        background: white;
+        border-radius: 50%;
+        box-shadow: 1px 1px 3px #145A7B;
+        border: 1px solid black;
+       }
+
+    textarea{
+        resize: none;
+        width: 100%;
+    }
+
+    form input.submitBtn {
+        border: 1px solid #DAA12F;
+        background-color: #145A7B;
+        color: white;
+        border-radius: 5px;
+        padding: .75rem;
+        font-size: 1.25em;
+        width: 100%;
+    }
+    form input.submitBtn:hover{
+        box-shadow: 0 5px 10px #145A7B;
+    }
+
+    /*removes border when required field is completed*/
+    form label.top input:required {
+        border: 2px #DAA12F dashed;
+    }
+    
+    form label.top input:required:valid {
+        border: 1px solid #145A7B;
+    }
+
+    /*Confirmation page after form is submitted*/
+
+    #thanks {
+        margin-top: 2rem;
+        text-align: center;
+        border: 2px solid #145A7B;
+        padding: 40px;
+    }
+    
+    
+
