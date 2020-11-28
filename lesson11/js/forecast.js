@@ -1,27 +1,4 @@
-/*var name = document.URL.split('/');
-name = name[name.length-1];
-//name="preston.html".split('.');
-file = name;
-
-console.log(file);
-let id; 
-switch(file) {
-    case "sodasprings":
-        id = "5607916"
-        break;
-    case "fishhaven":
-        id = "5585010"
-        break;
-    case "preston":
-        id = "5604473"
-        break;
-    default:
-        id = "5604473"
-        break;
-}*/
-
-const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=4a0eddb5f22fe1857038e663b0dd6611`;
-
+const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?${id}&units=imperial&appid=4a0eddb5f22fe1857038e663b0dd6611`;
 
 fetch(forecastURL)
     .then((response) => response.json())

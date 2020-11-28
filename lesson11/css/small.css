@@ -12,14 +12,19 @@
     h1, h2, h3, h4, h5, h6{
         font-family: "Bangers" , "Impact" , sans-serif; 
         color: black;
-    }
-    h2, h3, h4, h5, h6{
         background-color: #DAA12F;
         max-width: 100%;
-        padding: 10px;
-        outline: 8px dotted black;
         border-radius: 5px;
         text-align:center; 
+        font-size: 1.5em;
+        margin: 1rem;
+    }
+    h2 {
+        outline: 8px dotted black; 
+        padding: .5rem;
+    }
+    h3 {
+        padding: .5rem;
     }
     p{
         padding: 5px;
@@ -31,6 +36,9 @@
     p a:hover{
         background-color: #145A7B;
         color: white;
+    }
+    section{
+        border: 1px solid #DAA12F;
     }
 
     /*banner that only shows at top of page on Fridays*/
@@ -51,7 +59,7 @@
         align-items:center;
         justify-content:center;
         background-color: #DAA12F;
-        border: 5px solid black;
+        border: 3px solid black;
         padding: 5px;  
     }
     header img{
@@ -160,11 +168,13 @@
         font-family: "Cormorant Garamon" , "Palatino Linotype", serif;
         padding: 10px;
         text-align: center;
-        border-radius: 5px 5px 0px 0px;
         margin-top: 2rem;
     }
     footer p{
         margin: 0;
+    }
+    footer a{
+        color: black;
     }
     /*Home Page Town Data Cards */
 
@@ -175,7 +185,6 @@
         width: 100%;
       }
       .card {
-        border: 1px solid #DAA12F;
         margin: 5px 0 5px 0;
       }
       .town-info p:first-of-type {
@@ -309,6 +318,15 @@
         text-align: center;
         border: 2px solid #145A7B;
         padding: 40px;
+    }
+
+    /*town events, center text and give it space*/
+
+    section.town-events ul {
+        text-align: center;
+    }
+    section.town-events li{
+        padding: 5px;
     }
     
     

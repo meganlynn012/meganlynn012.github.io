@@ -17,6 +17,9 @@
         display: block;
         flex: 1 1 auto;
     }
+    .navigation a{
+        padding: 5px;
+    }
     header img{
         width: 125px;
     }
@@ -42,6 +45,7 @@
         align-items: center;
         justify-items: center;
         padding: 1rem;
+        border: 1px solid #DAA12F;
       }
       .card img{
         grid-row: 1/6;
@@ -56,9 +60,13 @@
 
     .article img{
         float: left;
-        margin-right: 50px;
+        margin-right: 1rem;
         margin-left: 10px;
         width: 200px;
+    }
+    section.article {
+        overflow: auto;
+        padding-bottom: 5px;
     }
     .weather-info{
         position: relative;
@@ -114,7 +122,7 @@
     form label.top input,
     form label.storm select,
     form label.storm input {
-        width: 20rem;
+        width: 30rem;
     }
     form input.submitBtn{
         width: 21.5rem;
@@ -156,5 +164,6 @@
     footer{
         max-width: 80%;
         margin-left: 10%;
+        border-radius: 5px 5px 0px 0px;
     }
 }

@@ -7,12 +7,12 @@ fetch(requestURL)
   .then(function (jsonObject) {
   const towns = jsonObject['towns'];
   let three = towns.filter(town => (town.name == "Preston" || town.name == "Fish Haven" || town.name == "Soda Springs"));
-    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject); temporary checking for valid response and data parsing
  
     three.forEach(town =>{
     
     let card = document.createElement('div');
-    let h2 = document.createElement('h2');
+    let h2 = document.createElement('h3');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
