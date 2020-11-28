@@ -23,7 +23,7 @@ fetch(forecastURL)
             document.getElementById(`forecast-temp${day + 1}`).innerHTML = time.main.temp.toFixed(0) + '&deg; F';
             document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
-            console.log(desc);
+            //console.log(desc);
             day++;
         })
 
