@@ -289,7 +289,7 @@
 
     textarea{
         resize: none;
-        width: 100%;
+        width: 98%;
     }
 
     form input.submitBtn {
@@ -300,6 +300,7 @@
         padding: .75rem;
         font-size: 1.25em;
         width: 100%;
+        margin-bottom: 2rem;
     }
     form input.submitBtn:hover{
         box-shadow: 0 5px 10px #145A7B;
