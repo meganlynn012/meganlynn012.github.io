@@ -1,0 +1,242 @@
+/*Colors
+dark blue = 2A5099
+light blue = 54A0BE
+sand = FDF4E3
+yellow = EEE074
+dark grey = 353431
+*/
+
+/*General Design*/
+
+body {
+    margin: 0 auto;
+    max-width: 520px;
+    text-align: center;
+    background-color: #FDF4E3;
+    color: #353431;
+    font-family: "Assistant" , "Arial" , "sans-serif";
+    font-size: 1.25em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ceviche One" , "Georgia" , "cursive";
+    color: #2A5099;
+}
+ul { /*centers list and gets rid of bullets*/
+    list-style: none;
+    padding: 0;
+}
+a { /*takes out underline on links*/
+    text-decoration: none;
+    color: #353431
+}
+
+/*header*/
+header {
+    display: flex;
+    flex-direction: column;
+    
+}
+img.logo-img {
+    max-width: 100%;
+    margin: 20px 5px 0 5px;
+}
+header h2{
+    background-color: #EEE074;
+    border-radius: 60px 0;
+    padding: 10px 40px;
+    width: 33%;
+    margin: 0 auto 10px auto;
+    box-shadow: 5px -5px 10px #353431;
+}
+/*alert bar*/
+
+.alert-bar {
+    display: none;
+}
+.alerts {
+    display: flex;
+    background-color: #353431;
+    color: #FDF4E3;
+    border: 3px solid #EEE074;
+    text-align: left;
+}
+.alerts span{
+    font-size: .75em;
+    padding: 15px;
+    margin: 0;
+}
+.alerts h3{
+    color: #FDF4E3;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+/*navigation menu*/
+
+.navigation{
+    display: flex;
+    flex-flow: column;
+    background-color: #353431;
+    max-width: 100%;
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;
+}
+ul.navigation {
+    margin: 0;
+    padding: 0;
+}
+.navigation a{
+    text-decoration: none;
+    color: #FDF4E3;
+}
+.navigation a:hover {
+    color: #54A0BE;
+}
+.active, .active a{
+    background-color: #EEE074;
+    color: #353431;
+}
+.navigation li{
+    display: none;
+    padding: 6px;
+}
+.navigation li:first-child{
+    display: block;
+}
+.responsive li{
+    display: block;
+}
+
+/*hero image*/
+
+.hero {
+    width: 100%;
+}
+
+/*home page hero with call to action*/
+
+.action-call {
+    position: relative;
+}
+.call a p{
+    background-color: white;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
+    box-shadow: 2px 3px 10px #353431;
+    opacity: .8;
+    color: black;
+    border-radius: 5px;
+}
+.call a p:hover{
+    background-color: #54A0BE;
+    opacity: none;
+}
+.call {
+    background-color: white;  
+    width: 75%;
+    max-height: 200px;
+    padding: 10px 10px 40px 10px;  
+    opacity: .8;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #353431;
+}
+
+/*home page summary of vehicles*/
+.summary {
+    display: grid;
+    grid-template-columns: auto;
+}
+.vehicles{
+    background-color: white;
+    width: 80%;
+    padding-bottom: 20px;
+    margin: 5px auto 15px auto;
+    box-shadow: 5px 5px 10px #353431;
+}
+.vehicles img{
+    width: 100%;
+}
+.summary-link {
+    background-color: #54A0BE;
+    width: 65%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.summary-link:hover {
+    box-shadow: 2px 3px 10px #353431;
+}
+
+/*home page current weather*/
+
+.current-weather {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    color: #2A5099;
+}
+.current-weather p{
+    background-color: #EEE074;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 60px 0;
+}
+
+/*home page forecast*/
+
+.three-day {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.forecast {
+    border: 1px solid #2A5099;
+    border-radius: 60px 0;
+    margin: 5px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.forecast span {
+    margin:0;
+    padding-top: 12px;    
+}
+
+/*footer*/
+
+footer{
+    background-color: #353431;
+    color: #FDF4E3;
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    color:#FDF4E3;
+}
+footer a:hover{
+    color:#EEE074;
+}
+footer h2{
+    color: #54A0BE;
+}
+.quick-links{
+    display: none;
+}
+.social-media {
+    margin: 20px 0 40px 0;
+}
+.social-media a{
+    margin: 0 10px;
+}
+.site-map {
+    display: none;
+}

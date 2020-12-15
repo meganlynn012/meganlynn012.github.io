@@ -1,0 +1,133 @@
+@media only screen and (min-width: 520px) {
+
+/*general design*/
+
+body {
+    max-width: 1000px;
+    font-size: 1.5em;
+}
+h1, h2 {
+    font-size: 2em;
+}
+
+/*header*/
+
+img.logo-img {
+    width: 40%;
+    margin: 20px auto 0 auto;
+}
+header h2 {
+    font-size: 1em;
+}
+
+/*navigation*/
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDF4E3;
+}
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+    border-radius: 60px 0;
+    background-color: #353431;
+}
+.navigation a {
+    border-radius: 60px 0;
+}
+li.active{
+    background-color: #EEE074;
+    border: 1px solid #353431;
+}
+
+/*home page hero with call to action*/
+
+.call{
+    top: 25%;
+    height: 60%;
+}
+.call a p{
+    width: 35%;
+}
+
+/*home page summary of vehicles, includes current weather*/
+
+.summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+ .current-weather {
+     width: 80%;
+     margin: 0;
+     padding: 0;
+     background-color: white;
+     box-shadow: 5px 5px 10px #353431;
+ }
+ .current-weather h2 {
+     border-bottom: 1px solid #2A5099;
+     margin: 0;
+     padding: 10px;
+ }
+ .current-weather p{
+     margin: 50px auto;
+ }
+
+ /*home page forecast*/
+.three-day {
+    margin: 20px 0;
+}
+ .three-day h2{
+     margin: 0 0 15px 0;
+ }
+.forecast-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    width: 125px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px #353431;
+}
+.forecast img{
+    width: 50px;
+}
+.forecast span{
+    padding-bottom: 10px;
+    color: #2A5099;
+}
+
+/*footer*/
+
+footer {
+    font-size: .75em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer div{
+    padding: 15px;
+}
+.quick-links{
+    display: block;
+}
+.site-map{
+    display: block;
+}
+.site-map img{
+    width: 100%;
+}
+.copyright{
+    grid-column: 1 / 4;
+}
+}

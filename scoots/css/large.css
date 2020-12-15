@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1000px) {
+
+body {
+    max-width: 2000px;
+}
+
+/*home page summary of vehicles*/
+
+.summary {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*home page weather info*/
+.current-weather {
+    grid-column: 1 / 4;
+    max-width: 50%;
+    margin: 40px auto 40px auto;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+.current-weather p{
+    box-shadow: 5px 5px 10px #353431;
+    margin: 25px;
+}
+.three-day h2{
+    margin: 0 auto 15px auto;
+    max-width: 50%;
+}
+
+}
