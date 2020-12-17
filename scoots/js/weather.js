@@ -42,5 +42,14 @@ document.getElementById('icon1').setAttribute('src', imagesrc1);
 document.getElementById('icon2').setAttribute('src', imagesrc2);
 document.getElementById('icon3').setAttribute('src', imagesrc3);
 
+//alert display
+
+let alert = summary.alerts.description;
+
+if (typeof alert != "undefined")
+{
+  alert(alert);
+}
+
   });
     

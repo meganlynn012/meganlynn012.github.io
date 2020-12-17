@@ -55,29 +55,6 @@ header h2{
     width: 33%;
     margin: 0 auto 10px auto;
     box-shadow: 5px -5px 10px #353431;
-}
-/*alert bar*/
-
-.alert-bar {
-    display: none;
-}
-.alerts {
-    display: flex;
-    background-color: #353431;
-    color: #FDF4E3;
-    border: 3px solid #EEE074;
-    text-align: left;
-}
-.alerts span{
-    font-size: .75em;
-    padding: 15px;
-    margin: 0;
-}
-.alerts h3{
-    color: #FDF4E3;
-    padding-left: 15px;
-    margin-top: 15px;
-}
 
 /*navigation menu*/
 
