@@ -8,7 +8,7 @@
     <meta name="author" content="Megan Shaw">
     <meta name="description" content="scoots contact page, addresses of two location and contact form">
 
-<link rel="shortcut icon" href="images/scootsfavicon.ico">
+    <link rel="shortcut icon" href="images/scootsfavicon.ico">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -21,102 +21,121 @@
 
 
     <header>
-        <img class = "logo-img" src="images/logo600.jpg" alt="scoots logo">
+        <img class="logo-img" src="images/logo600.jpg" alt="scoots logo">
         <h2 id="find-your-ride">Find Your Ride</h2>
 
-    <nav>
-<ul class="navigation">
-    <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="rentals.html">Rentals</a></li>
-    <li><a href="reservations.html">Reservations</a></li>
-    <li><a href="tours.html">Tours</a></li>
-    <li class="active"><a href="contact.html">Contact</a></li>
-</ul>
-    </nav>
-    
-</header>
-
-<main>
-    <section class="map">
-        <h1>Find Us</h1>
-        <div id="location1"><h2>Location 1</h2>
-            <a href="https://goo.gl/maps/mjgMu4vS1SYwtT867">
-                <p>Av. Rafael E. Melgar 51-101, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p></a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.6121251821788!2d-86.94933572536085!3d20.511146948859672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDMwJzQxLjUiTiA4NsKwNTYnNTcuMyJX!5e0!3m2!1sen!2sus!4v1608014173462!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
-        <div id="location2"><h2>Location 2</h2>
-        <a href="https://goo.gl/maps/zcsGXKdnXpNQVmuSA">
-            <p>77600 San Miguel de Cozumel, Quintana Roo, Mexico</p></a>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019.0128896215808!2d-86.97533297447202!3d20.475222384773236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzMxLjUiTiA4NsKwNTgnMjkuNyJX!5e0!3m2!1sen!2sus!4v1608014032124!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div></section>
-
-    <h1>Let's Get in Touch</h1>
-    <form action="thankyou.html">
-        <fieldset>
-            <label class="contact">Name<input type=type="text" name="fullname" pattern="^[a-zA-Z ]{1,}" required></label>
-            <label class="contact">Email<input type="email" name="email" placeholder="someone@gmail.com" required></inpute></label>
-            <label class="txtarea">Tell Us What's Up<textarea name="txtarea" rows="6" cols="30"></textarea></label>
-
-        <input type="submit" value="Send Off" class="submitBtn" name="submitBtn">
-    </fieldset>
-    </form>
-    
-    <footer>
-
-        <div class="contact-phone">
-            <h2>Call us</h2>
-            <p>(From the US) 011-52-987-555-5555</p>
-        </div>
-        <div class="contact-email">
-            <h2>Email us</h2>
-            <p>scootcozumel@scoots.com</p>
-        </div>
-        <div class="contact-address">
-            <h2>Find us</h2>
-            <a href="https://goo.gl/maps/mjgMu4vS1SYwtT867">
-                <p>Av. Rafael E. Melgar 51-101, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p></a>
-        </div>
-        
-        <div class="quick-links">
-            <h2>Quick Links</h2>
-            <ul>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggle()">&#9776; Menu</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="tours.html">Tours</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="references.html">References</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
-        </div>
-        
-        <div class="social-media">
-            <a href="https://www.facebook.com" target="window"><img src="images/facebook30.jpg" alt="facebook" /></a>
-            <a href="https://www.instagram.com" target="window"><img src="images/instagram30.jpg" alt="instagram" /></a>
-            <a href="https://www.twitter.com" target="window"><img src="images/twitter30.jpg" alt="twitter" /></a></div>
-        </div>
-        
-        <div class="site-map">
-            <a href="https://goo.gl/maps/U4gsUcYZekwcw5WJ6">
-                <img src="images/cozumelmap.jpg" alt="site map"></a>
-        </div>
-        
-        <div class="copyright">
-            <p>&copy; <span id="currentYear"></span> ~Scoots ~ Megan Shaw ~ Weather Statistics from <a href="https://openweathermap.org/city/5604473">OpenWeatherMap</a>
-            ~ Last Modified <span id="lastModified"></span></p>
-        </div>
-        
-            </footer>
-            <script src="js/lastModified.js"></script>
-            <script src="js/toggleMenu.js"></script>
-            <!--Summons fonts from Google fonts-->
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-            <script>
-                WebFont.load({
-                    google: {
-                        families: ["Ceviche One", "Assistant"]
-                    }
-                });
-            </script>
-        </body>
-        </html>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="map">
+            <h1>Find Us</h1>
+            <div id="location1">
+                <h2>Location 1</h2>
+                <a href="https://goo.gl/maps/mjgMu4vS1SYwtT867">
+                    <p>Av. Rafael E. Melgar 51-101, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+                </a>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d894.6121251821788!2d-86.94933572536085!3d20.511146948859672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDMwJzQxLjUiTiA4NsKwNTYnNTcuMyJX!5e0!3m2!1sen!2sus!4v1608014173462!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div id="location2">
+                <h2>Location 2</h2>
+                <a href="https://goo.gl/maps/zcsGXKdnXpNQVmuSA">
+                    <p>77600 San Miguel de Cozumel, Quintana Roo, Mexico</p>
+                </a>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019.0128896215808!2d-86.97533297447202!3d20.475222384773236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDI4JzMxLjUiTiA4NsKwNTgnMjkuNyJX!5e0!3m2!1sen!2sus!4v1608014032124!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </section>
+
+        <h1>Let's Get in Touch</h1>
+        <form action="thankyou.html">
+            <fieldset>
+                <label class="contact">Name<input type=type="text" name="fullname" pattern="^[a-zA-Z ]{1,}"
+                        required></label>
+                <label class="contact">Email<input type="email" name="email" placeholder="someone@gmail.com" required>
+                    </inpute></label>
+                <label class="txtarea">Tell Us What's Up<textarea name="txtarea" rows="6" cols="30"></textarea></label>
+
+                <input type="submit" value="Send Off" class="submitBtn" name="submitBtn">
+            </fieldset>
+        </form>
+
+        <footer>
+
+            <div class="contact-phone">
+                <h2>Call us</h2>
+                <p>(From the US) 011-52-987-555-5555</p>
+            </div>
+            <div class="contact-email">
+                <h2>Email us</h2>
+                <p>scootcozumel@scoots.com</p>
+            </div>
+            <div class="contact-address">
+                <h2>Find us</h2>
+                <a href="https://goo.gl/maps/mjgMu4vS1SYwtT867">
+                    <p>Av. Rafael E. Melgar 51-101, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+                </a>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rentals.html">Rentals</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="window"><img src="images/facebook30.jpg"
+                        alt="facebook" /></a>
+                <a href="https://www.instagram.com" target="window"><img src="images/instagram30.jpg"
+                        alt="instagram" /></a>
+                <a href="https://www.twitter.com" target="window"><img src="images/twitter30.jpg" alt="twitter" /></a>
+            </div>
+            </div>
+
+            <div class="site-map">
+                <a href="https://goo.gl/maps/U4gsUcYZekwcw5WJ6">
+                    <img src="images/cozumelmap.jpg" alt="site map"></a>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> ~Scoots ~ Megan Shaw ~ Weather Statistics from <a
+                        href="https://openweathermap.org/city/5604473">OpenWeatherMap</a>
+                    ~ Last Modified <span id="lastModified"></span></p>
+            </div>
+
+        </footer>
+        <script src="js/lastModified.js"></script>
+        <script src="js/toggleMenu.js"></script>
+        <!--Summons fonts from Google fonts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["Ceviche One", "Assistant"]
+                }
+            });
+        </script>
+</body>
+
+</html>
