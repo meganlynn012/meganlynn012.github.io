@@ -41,6 +41,9 @@ let imagesrc3 = 'https://openweathermap.org/img/w/' + forecast[2].weather[0].ico
 document.getElementById('icon1').setAttribute('src', imagesrc1);
 document.getElementById('icon2').setAttribute('src', imagesrc2);
 document.getElementById('icon3').setAttribute('src', imagesrc3);
+document.getElementById('icon1').setAttribute('alt', 'weather icon');
+document.getElementById('icon2').setAttribute('alt', 'weather icon');
+document.getElementById('icon3').setAttribute('alt', 'weather icon');
 
 //alert display
 
