@@ -130,4 +130,46 @@ footer div{
 .copyright{
     grid-column: 1 / 4;
 }
+
+/*form styling*/
+
+form label.personal input,
+form label.personal select,
+form label.rent input,
+form label.rent select,
+form label.contact input { 
+    width: 500px;
+}
+
+form input.submitBtn {
+    width: 400px;
+}
+
+/*rental reserve button*/
+
+a.reserve-button{
+    max-width: 40%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/*tours page*/
+
+article {
+text-align: left;
+}
+article img{
+max-width: 320px;
+float: left;
+margin-right: 15px;
+}
+table.tour-table {
+    float: clear;
+    margin-top: 15px;
+    width: 400px;
+}
+article p {
+    margin: 0 15px;
+}
+
 }

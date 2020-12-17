@@ -9,6 +9,12 @@ body {
 .summary {
     grid-template-columns: 1fr 1fr 1fr;
 }
+.vehicles h2 {
+    padding: 0 5px;
+}
+.vehicles {
+    width: 90%;
+}
 
 /*home page weather info*/
 .current-weather {
@@ -27,4 +33,21 @@ body {
     max-width: 50%;
 }
 
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    article h2 {
+        grid-column: 1/4;
+    }
+    article p {
+        grid-column: 2 / 4;
+    }
+    table.tour-table {
+        grid-column: 1 / 4;
+        width: 450px;
+    }
+    article a{
+        grid-column: 1 / 4;
+    }
 }

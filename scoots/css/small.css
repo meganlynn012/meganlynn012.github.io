@@ -29,6 +29,14 @@ a { /*takes out underline on links*/
     text-decoration: none;
     color: #353431
 }
+form a, .confirmation a {
+    color:#2A5099;
+    text-decoration: underline;
+}
+form a {
+    display: block;
+    margin-bottom: 20px;
+}
 
 /*header*/
 header {
@@ -165,13 +173,14 @@ ul.navigation {
 }
 .summary-link {
     background-color: #54A0BE;
+    border: 1px solid #353431;
     width: 65%;
     margin: 10px auto;
     padding: 20px;
     border-radius: 5px;
 }
 .summary-link:hover {
-    box-shadow: 2px 3px 10px #353431;
+    box-shadow: 5px 5px 10px #353431;
 }
 
 /*home page current weather*/
@@ -239,4 +248,201 @@ footer h2{
 }
 .site-map {
     display: none;
+}
+
+/*form styling*/
+
+form{
+    text-align: left;
+}
+form p{
+    margin: 10px;
+    font-size: larger;
+}
+
+form fieldset {
+    border: 1px solid #2A5099;
+    border-radius: 5px;
+    margin: 20px 2px;
+}
+form legend {
+    padding: 0 5px;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    color: #2A5099;
+}
+form p {
+    color: #2A5099;
+}
+
+form a, .confirmation a {
+    color:#2A5099;
+    text-decoration: underline;
+}
+form a:hover {
+    color: #54A0BE; 
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form label.personal input,
+form label.personal select,
+form label.rent select,
+form label.contact input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #2A5099;
+
+}
+form label.radio {
+    display: block;
+}
+form input, form select{
+    margin-top: 5px;
+}
+form select{
+    padding-left: 5px;
+}
+#severity {
+    appearance: none;
+    background-image: linear-gradient(#54A0BE, #2A5099);
+    height: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    outline: none;
+}
+#severity::-webkit-slider-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #2A5099;
+    border: 1px solid black;
+   }
+   
+   #severity::-moz-range-thumb {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #2A5099;
+    border: 1px solid black;
+   }
+textarea {
+    resize: none;
+    width: 98%;
+}
+form input.submitBtn {
+    border: 1px solid #353431;
+    background-color: #54A0BE;
+    border-radius: 5px;
+    padding: .75rem;
+    width: 100%;
+    margin: 20px 0;
+}
+form input.submitBtn:hover{
+    box-shadow: 0 5px 10px #353431;
+}
+form label input:required {
+    border-bottom: 3px solid #EEE074;
+}
+form label input:required:valid {
+    border-bottom: 1px solid #2A5099;
+}
+
+/*Confirmation Page*/
+
+.confirmation {
+    padding: 20px;
+}
+
+/*Rentals Page*/
+.rental-info {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    box-shadow: 5px 5px 10px #353431;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+.rental-info h2 {
+    margin: 0;
+}
+.rental-info img{
+    max-width: 100%;
+}
+a.reserve-button {
+    display: block;
+        background-color: #54A0BE;
+        border: 1px solid #353431;
+        margin: 30px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    a.reserve-button:hover {
+        box-shadow: 5px 5px 10px #353431;
+    }
+
+/*Rentals Table*/
+
+table.rent-table {
+    box-shadow: 5px 5px 10px #353431;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #353431;
+    color: #FDF4E3;
+    margin: 0 auto 30px auto;
+    max-width: 90%;
+}
+thead {
+    text-align: center;
+    font-size: 1.25em;
+    color: #353431;
+}
+th {
+    background-color:#54A0BE;
+}
+thead th {
+    background-color: #54A0BE;
+}
+table, th, td {
+    border: 1px solid #EEE074;
+    padding: 15px;
+}
+
+/*Tours page*/
+
+.tour-intro p{
+    padding: 15px;
+}
+
+table.tour-table {
+    font-size: smaller;
+    background-color: white;
+    color: #353431;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px #353431;
+    margin: 0 auto;    
+}
+article {
+    background-color: white;
+    box-shadow: 5px 5px 10px #353431;
+    padding: 15px 15px 30px;
+    overflow: auto;
+    max-width: 75%;
+    margin: 30px auto;
+}
+article img {
+    margin: 0 auto;
+    width: 100%;
+}
+article h2 {
+    margin: 0 auto 15px;
 }
