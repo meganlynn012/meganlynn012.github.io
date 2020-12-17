@@ -19,8 +19,6 @@ fetch(forecastURL)
             const dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
             const d = new Date(time.dt_txt);
 
-            document.getElementById(`day${day + 1}`).innerHTML = dayName[d.getDay()];
-            document.getElementById(`forecast-temp${day + 1}`).innerHTML = time.main.temp.toFixed(0) + '&deg; F';
             document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
             //console.log(desc);

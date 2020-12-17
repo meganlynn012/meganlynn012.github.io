@@ -133,6 +133,11 @@ footer div{
 
 /*form styling*/
 
+form {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
 form label.personal input,
 form label.personal select,
 form label.rent input,
@@ -172,4 +177,12 @@ article p {
     margin: 0 15px;
 }
 
+section.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.map h1 {
+    grid-column: 1 / 3;
+}
 }

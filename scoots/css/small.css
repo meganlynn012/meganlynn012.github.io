@@ -429,7 +429,8 @@ table.tour-table {
     color: #353431;
     border-collapse: collapse;
     box-shadow: 5px 5px 10px #353431;
-    margin: 0 auto;    
+    margin: 0 auto; 
+    width: 350px;   
 }
 article {
     background-color: white;
