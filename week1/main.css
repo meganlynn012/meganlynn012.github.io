@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+p, ul, .post-date {
+    font-family: 'helvetica', 'arial', sans-serif;
+}
+
+header {
+    background-color: #6795ED;
+    text-align: right;
+    padding: 15px;
+}
+
+main {
+    background-color: #FAEBD7;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #6495ED;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+header a {
+    color: #FAEBD7;
+}
+
+nav li {
+    margin: 10px 0;
+    font-size: .75em;
+}
+
+nav a:active {
+    color: #DEB887;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+article {
+    background-color: white;
+    margin: 0 auto 25px auto;
+    box-shadow: 2px 2px 5px gray;
+    padding: 25px;
+}
+
+article h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+article h2 a:active {
+    color: #DEB887;
+}
+
+article h2 a:hover {
+    text-decoration: underline;
+    color: #6495ED;
+}
+
+.post-date {
+    color: gray;
+    font-size: .75em;
+}
+
+figure {
+    margin: 50px auto 0 auto;
+    width: 80%;
+}
+
+figure img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+
+    body {
+        max-width: 100%;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 25% 1fr;
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    figure {
+        max-width: 200px;
+    }
+}
